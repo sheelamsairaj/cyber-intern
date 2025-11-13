@@ -1,2 +1,17 @@
 # Nmap 7.98 scan initiated Thu Nov 13 17:12:05 2025 as: nmap -sS -sV -oN scan_results.txt 192.168.1.0/24
 # Nmap done at Thu Nov 13 17:15:32 2025 -- 256 IP addresses (0 hosts up) scanned in 207.09 seconds
+
+
+
+
+sairaju@SEELAMs-MacBook-Air ~ % sudo nmap -sS -sV -oN scan_results.txt 192.0.0.0/24
+Password:
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 17:08 +0530
+Nmap scan report for 192.0.0.2
+Host is up (0.000011s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL (unauthorized)
+5000/tcp open  rtsp
+7000/tcp open  rtsp
+
